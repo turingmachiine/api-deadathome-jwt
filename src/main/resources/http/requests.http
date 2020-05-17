@@ -1,0 +1,23 @@
+POST http://localhost:8080/signIn
+Content-Type: application/json
+
+{
+  "email" : "strvtxv@gmail.com",
+  "password": "Qwerty007"
+}
+
+###
+
+GET http://localhost:8080/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4IiwibmFtZSI6ItCR0LDQtNC00Lgg0JHRg9C60LDRgNC10LIiLCJyb2xlIjoiVVNFUiJ9.xkycTg8SHDgyLuNz2iUC3HlevgGIxEHh840tmAvoF-s
+
+###
+
+GET http://localhost:8080/posts
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4IiwibmFtZSI6ItCR0LDQtNC00Lgg0JHRg9C60LDRgNC10LIiLCJyb2xlIjoiVVNFUiJ9.xkycTg8SHDgyLuNz2iUC3HlevgGIxEHh840tmAvoF-s
+
+###
+
+
+GET  http://localhost:8080/houses
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI4IiwibmFtZSI6ItCR0LDQtNC00Lgg0JHRg9C60LDRgNC10LIiLCJyb2xlIjoiVVNFUiJ9.xkycTg8SHDgyLuNz2iUC3HlevgGIxEHh840tmAvoF-s
